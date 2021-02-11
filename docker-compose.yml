@@ -11,3 +11,12 @@ services:
     volumes: 
       - ./:/usr/src/app
     stdin_open: true
+
+  test:
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    image: "dragmove/react-app-test:0.2.0"
+    volumes:
+      - ./:/usr/src/app
+    command: ["npm", "test"]
