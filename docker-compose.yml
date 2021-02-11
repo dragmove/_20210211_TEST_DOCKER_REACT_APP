@@ -1,0 +1,13 @@
+version: "3.8"
+
+services: 
+  react-app:
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    image: "dragmove/react-app:0.2.0"
+    ports:
+      - "3000:3000"
+    volumes: 
+      - ./:/usr/src/app
+    stdin_open: true
