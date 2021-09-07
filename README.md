@@ -1,8 +1,11 @@
-# _20210207_TEST_DOCKER_COMPOSE_NODEJS_REDIS
+# _20210211_TEST_DOCKER_REACT_APP
 
 ## About
+- Setting to run react app on Nginx
 
-- Docker setting to build image making react app
+### Setting
+- Docker (dev env, production env using Nginx server)
+- Travis
 
 ## Contact
 
