@@ -1,11 +1,13 @@
-# _20210211_TEST_DOCKER_REACT_APP
+# \_20210211_TEST_DOCKER_REACT_APP
 
 ## About
+
 - Setting to run react app on Nginx
 
 ### Setting
+
 - Docker (dev env, production env using Nginx server)
-- Travis
+- Travis CI
 
 ## Contact
 
